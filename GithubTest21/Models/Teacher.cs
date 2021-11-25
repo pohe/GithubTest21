@@ -9,11 +9,13 @@ namespace GithubTest21.Models
     {
         public string Name { get; set; }
         public string Course { get; set; }
+        public ushort Age { get; set; }
 
-        public Teacher(string name, string course)
+        public Teacher(string name, string course, ushort age)
         {
             Name = name;
             Course = course;
+            Age = age;
         }
     }
 }
