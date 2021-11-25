@@ -7,5 +7,11 @@ namespace GithubTest21.Models
 {
     public class Car
     {
+        private string _name;
+        
+        public Car(name)
+        {
+            
+        }
     }
 }
