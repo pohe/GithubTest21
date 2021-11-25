@@ -9,6 +9,7 @@ namespace GithubTest21.Models
     {
         public string Name { get; set; }
         public string Course { get; set; }
+        //Her er der sket en ændring
 
         public Teacher(string name, string course)
         {
