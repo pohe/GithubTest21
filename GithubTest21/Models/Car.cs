@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 
 namespace GithubTest21.Models
 {
-    public class Student
+    public class Car
     {
-        //Added tekst
+        private string _name;
+        
+        public Car(name)
+        {
+            
+        }
     }
 }
