@@ -11,6 +11,8 @@ namespace GithubTest21.Models
         public string Course { get; set; }
         //Her er der sket en ændring
 
+        //Endnu en ændring
+
         public Teacher(string name, string course)
         {
             Name = name;
