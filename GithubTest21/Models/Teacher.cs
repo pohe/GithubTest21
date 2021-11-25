@@ -11,12 +11,14 @@ namespace GithubTest21.Models
         public string Course { get; set; }
         public string Number { get; set; }
         //Her er der sket en ændring
+        public string Address { get; set; }
 
-        public Teacher(string name, string course, string number)
+        public Teacher(string name, string course, string address, string number)
         {
             Name = name;
             Course = course;
             Number = number;
+            Address = address;
         }
     }
 }
